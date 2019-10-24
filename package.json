@@ -1,0 +1,26 @@
+{
+	"name": "smntcs-deactivate-image-compression",
+	"version": "1.0.0",
+	"description": "Deactivate the WordPress default image compression which got introduced with WordPress 2.5.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Deactivate image compression"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-deactivate-image-compression#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-deactivate-image-compression.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-deactivate-image-compression/issues"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^5.0.0"
+	},
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
+}
