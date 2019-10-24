@@ -20,7 +20,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '¯\_(ツ)_/¯' );
 }
 
-// Deactivate default image compression
-add_filter( 'jpeg_quality', function( $arg ) {
-	return 100;
-});
+// Deactivate default image compression.
+add_filter(
+	'jpeg_quality',
+	function( $arg ) {
+		return 100;
+	}
+);
