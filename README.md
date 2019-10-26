@@ -18,7 +18,7 @@ Deactivate the WordPress default image compression which got introduced with [Wo
 
 ## Plugin page
 
-You can find the plugin page on https://wordpress.org/plugins/smntcs-deactivate-image-compression/.
+You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image-compression/.
 
 ## Changelog
 
