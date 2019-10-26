@@ -7,8 +7,8 @@ Requires at least: 3.4
 Stable tag: 1.0
 Tested up to: 5.2
 Requires PHP: 5.6
-License: GPL2+
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3+
+License URI: https://www.gnu.org/licenses/gpl.html
 
 Deactivate the WordPress default image compression.
 
