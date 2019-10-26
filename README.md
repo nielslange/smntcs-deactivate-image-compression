@@ -9,7 +9,7 @@
 [![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-deactivate-image-compression.svg)](https://wordpress.org/plugins/smntcs-deactivate-image-compression/)
 [![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-deactivate-image-compression.svg)](https://wordpress.org/plugins/smntcs-deactivate-image-compression/)
 
-🗜 Deactivate the WordPress default image compression which got introduced with [WordPress 2.5](https://developer.wordpress.org/reference/hooks/jpeg_quality/).
+Deactivate the WordPress default image compression which got introduced with [WordPress 2.5](https://developer.wordpress.org/reference/hooks/jpeg_quality/).
 
 ## Installation
 
