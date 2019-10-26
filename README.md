@@ -15,3 +15,13 @@
 
 1. Upload 'smntcs-deactivate-image-compression' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+
+## Plugin page
+
+You can find the plugin page on https://wordpress.org/plugins/smntcs-deactivate-image-compression/.
+
+## Changelog
+
+### 1.0
+
+* Initial release
