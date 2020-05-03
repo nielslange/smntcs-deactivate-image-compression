@@ -2,6 +2,7 @@
 
 [![Support Level](https://img.shields.io/badge/support-active-green.svg)](#support-level)
 [![Build Status](https://api.travis-ci.com/nielslange/smntcs-deactivate-image-compression.svg?branch=master)](https://api.travis-ci.com/nielslange/smntcs-deactivate-image-compression)
+![Deploy to WordPress.org](https://github.com/nielslange/smntcs-deactivate-image-compression/workflows/Deploy%20to%20WordPress.org/badge.svg)
 [![GPLv3 License](https://img.shields.io/github/license/nielslange/smntcs-deactivate-image-compression.svg)](https://www.gnu.org/licenses/gpl.html)
 [![Compatible to WordPress version](https://plugintests.com/plugins/smntcs-deactivate-image-compression/wp-badge.svg)](https://plugintests.com/plugins/smntcs-deactivate-image-compression/latest)
 [![Compatible to PHP version](https://plugintests.com/plugins/smntcs-deactivate-image-compression/php-badge.svg)](https://plugintests.com/plugins/smntcs-deactivate-image-compression/latest)
