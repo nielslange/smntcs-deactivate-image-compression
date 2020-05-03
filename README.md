@@ -9,23 +9,26 @@
 [![Plugin Version](https://img.shields.io/wordpress/plugin/v/smntcs-deactivate-image-compression.svg)](https://wordpress.org/plugins/smntcs-deactivate-image-compression/)
 [![Tag Version](https://img.shields.io/github/tag/nielslange/smntcs-deactivate-image-compression.svg)](https://wordpress.org/plugins/smntcs-deactivate-image-compression/)
 
+## Description
+
 Deactivate the WordPress default image compression which got introduced with [WordPress 2.5](https://developer.wordpress.org/reference/hooks/jpeg_quality/).
+
+## Plugin page
+
+You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image-compression/.
 
 ## Installation
 
 1. Upload `smntcs-deactivate-image-compression` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the `Plugins` menu in WordPress
 
-## Plugin page
-
-You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image-compression/.
-
 ## Changelog
 
-### 1.1
+### 1.2 (2020.05.03)
+* [Tested up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
 
+### 1.1 (2019.12.27)
 * [Tested up to 5.3](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/4)
 
-### 1.0
-
+### 1.0 (2019.07.10)
 * Initial release

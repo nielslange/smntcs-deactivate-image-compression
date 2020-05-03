@@ -2,8 +2,8 @@
 
 Contributors: nielslange
 Tags: Image compression
-Stable tag: 1.1
-Tested up to: 5.3
+Stable tag: 1.2
+Tested up to: 5.4
 Requires at least: 2.5
 Requires PHP: 5.6
 License: GPLv3+
@@ -26,9 +26,11 @@ By default, WordPress compress every uploaded image by 90%. In combination with 
 
 == Changelog ==
 
-= 1.1 =
+= 1.2 (2020.05.03) =
+* [Tested up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
 
+= 1.1 (2019.12.27) =
 * [Tested up to 5.3](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/4)
 
-= 1.0 =
+= 1.0 (2019.07.10) =
 * Initial release
