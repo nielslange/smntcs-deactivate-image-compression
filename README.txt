@@ -3,11 +3,11 @@
 Contributors: nielslange
 Tags: Image compression
 Stable tag: 1.2
-Tested up to: 5.4
-Requires at least: 2.5
-Requires PHP: 5.6
-License: GPLv3+
-License URI: https://www.gnu.org/licenses/gpl.html
+Tested up to: 5.7
+Requires at least: 5.5
+Requires PHP: 7.0
+License: GPLv2+
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Deactivate the WordPress default image compression.
 
