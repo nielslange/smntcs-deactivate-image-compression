@@ -26,6 +26,11 @@ By default, WordPress compress every uploaded image by 90%. In combination with 
 
 == Changelog ==
 
+= 1.3 (2021.04.26) =
+* [Add build tools](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/23)
+* [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/25)
+* [Test up to 5.7](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/22)
+
 = 1.2 (2020.05.03) =
 * [Tested up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
 
