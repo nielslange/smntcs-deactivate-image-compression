@@ -48,6 +48,9 @@ jobs:
           ./vendor/bin/phpcbf --version
           ./vendor/bin/phplint --version
 
+      - name: Show PHPCS sniffs
+        run: ./vendor/bin/phpcs -i
+
       - name: Run PHP_CodeSniffer
         run: composer cs
 
