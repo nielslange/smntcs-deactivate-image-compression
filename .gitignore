@@ -4,8 +4,8 @@
 .svn
 
 # Caching files
-.phpcs.cache
-.phplint.cache
+/.phpcs.cache
+/.phplint.cache
 
 # Lock files
 composer.lock
