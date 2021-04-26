@@ -2,34 +2,38 @@
 	"name": "nielslange/smntcs-deactivate-image-compression",
 	"type": "plugin",
 	"description": "Deactivate the WordPress default image compression which got introduced with WordPress 2.5.",
+	"homepage": "https://github.com/nielslange/smntcs-deactivate-image-compression",
+	"support": {
+		"issues": "https://github.com/nielslange/smntcs-deactivate-image-compression/issues",
+		"source": "https://github.com/nielslange/smntcs-deactivate-image-compression"
+	},
 	"keywords": [
 		"WordPress",
 		"Plugin",
 		"SMNTCS Deactivate image compression"
 	],
-	"homepage": "https://github.com/nielslange/smntcs-deactivate-image-compression",
-	"license": "GPL-3.0-or-later",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
-			"name": "Contributors",
-			"homepage": "https://github.com/nielslange/smntcs-deactivate-image-compression/graphs/contributors"
+			"name": "Niels Lange",
+			"email": "info@nielslange.de"
 		}
 	],
 	"require": {
-		"php": ">=5.6"
+		"php": ">=7.0"
 	},
 	"require-dev": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-		"jakub-onderka/php-parallel-lint": "^1.0",
-		"wptrt/wpthemereview": "^0.2.0"
+		"humanmade/psalm-plugin-wordpress": "^2.0",
+		"overtrue/phplint": "^2.3",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"squizlabs/php_codesniffer": "^3.6",
+		"vimeo/psalm": "^4.7",
+		"wp-coding-standards/wpcs": "^2.3"
 	},
 	"scripts": {
-		"checkcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --runtime-set testVersion 5.6-",
-		"fixcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --runtime-set testVersion 5.6-",
-		"lint": "@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor ."
-	},
-	"support": {
-		"issues": "https://github.com/nielslange/smntcs-deactivate-image-compression/issues",
-		"source": "https://github.com/nielslange/smntcs-deactivate-image-compression"
+		"cbf": "phpcbf --standard=.phpcs.xml .",
+		"cs": "phpcs --standard=.phpcs.xml .",
+		"lint": "phplint",
+		"psalm": "psalm --no-cache"
 	}
 }

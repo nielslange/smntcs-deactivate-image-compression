@@ -20,19 +20,13 @@
  * @license    https://www.gnu.org/licenses/gpl.html GNU Public License
  */
 
-/**
- * Avoid direct plugin access
- *
- * @since 1.0.0
- */
-if ( ! defined( 'ABSPATH' ) ) {
-	die( '¯\_(ツ)_/¯' );
-}
+// Avoid direct plugin access.
+defined( 'ABSPATH' ) || exit;
 
 /**
- * Deactivate default image compression
+ * Deactivate default image compression.
  *
- * @since 1.0.0
+ * @return int The image compression percentage.
  */
 add_filter(
 	'jpeg_quality',
