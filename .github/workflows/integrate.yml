@@ -14,13 +14,6 @@ jobs:
       - name: Install Composer dependencies
         uses: ramsey/composer-install@v1
 
-      - name: Add PHPCS sniffs
-        uses: chekalsky/phpcs-action@v1
-        with:
-          installed_paths: |
-            "${{ github.workspace }}/vendor/phpcompatibility/php-compatibility"
-            "${{ github.workspace }}/vendor/wp-coding-standards/wpcs"
-
       - name: Show PHPCS sniffs
         run: ./vendor/bin/phpcs -i
 
