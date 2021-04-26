@@ -1,7 +1,16 @@
+# System files
 .DS_Store
 .idea
-.phpcs.cache
-.phplint.cache
 .svn
+
+# Caching files
+/.phpcs.cache
+/.phplint.cache
+
+# Lock files
+composer.lock
+package-lock.json
+
+# Folders
 node_modules/
 vendor/
