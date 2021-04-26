@@ -24,9 +24,6 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image
 
 ## Changelog
 
-### 1.3 (2021.04.26)
-* [Test up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
-
 ### 1.2 (2020.05.03)
 * [Tested up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
 
