@@ -25,10 +25,10 @@ jobs:
           ./vendor/bin/phplint --version
 
       - name: Run PHP_CodeSniffer
-        run: composer cs
+        run: composer phpcs
 
       - name: Run PHPLint
-        run: composer lint
+        run: composer phplint
 
       - name: Run Psalm
         run: composer psalm
