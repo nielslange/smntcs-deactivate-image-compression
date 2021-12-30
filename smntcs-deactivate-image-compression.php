@@ -6,10 +6,10 @@
  * Author: Niels Lange <info@nielslange.de>
  * Author URI: https://nielslange.de/
  * Text Domain: smntcs-deactivate-image-compression
- * Version: 1.3
- * Tested up to: 5.7
+ * Version: 1.4
  * Requires at least: 5.5
  * Requires PHP: 7.0
+ * Tested up to: 5.8
  * License: GPLv2+
  * License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *

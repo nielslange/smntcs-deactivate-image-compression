@@ -32,9 +32,9 @@
 		"vimeo/psalm": "^4.7"
 	},
 	"scripts": {
-		"cbf": "phpcbf --standard=.phpcs.xml .",
-		"cs": "phpcs --standard=.phpcs.xml .",
-		"lint": "phplint",
+		"phpcbf": "phpcbf --standard=.phpcs.xml .",
+		"phpcs": "phpcs --standard=.phpcs.xml .",
+		"phplint": "phplint",
 		"psalm": "psalm --no-cache"
 	}
 }
