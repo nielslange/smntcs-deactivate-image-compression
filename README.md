@@ -24,28 +24,25 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image
 
 ## Changelog
 
-### 1.5 (2022.04.21)
+### 1.6 (2022.05.29)
+- Test up to 6.0
 
+### 1.5 (2022.04.21)
 -   Test up to 5.8
 
 ### 1.4 (2021.12.30)
-
 -   Test up to 5.8
 
 ### 1.3 (2021.04.26)
-
 -   [Add build tools](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/23)
 -   [Replace Travis CI with GitHub Actions](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/25)
 -   [Test up to 5.7](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/22)
 
 ### 1.2 (2020.05.03)
-
 -   [Test up to 5.4](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/7)
 
 ### 1.1 (2019.12.27)
-
 -   [Test up to 5.3](https://github.com/nielslange/smntcs-deactivate-image-compression/issues/4)
 
 ### 1.0 (2019.07.10)
-
 -   Initial release
