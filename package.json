@@ -23,10 +23,10 @@
 		"prettier": "npm:wp-prettier@2.0.5"
 	},
 	"scripts": {
-		"test": "npm-run-all --parallel phpcs phplint",
 		"phpcbf": "composer run phpcbf",
 		"phpcs": "composer run phpcs",
 		"phplint": "composer run phplint",
+		"test": "npm-run-all --parallel phpcs phplint",
 		"wp-env": "wp-env"
 	}
 }

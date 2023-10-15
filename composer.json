@@ -35,5 +35,10 @@
 		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",
 		"phpcs": "phpcs --standard=phpcs.dist.xml .",
 		"phplint": "phplint"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
 	}
 }
