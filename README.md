@@ -24,6 +24,10 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image
 
 ## Changelog
 
+### 2.0 (2025.03.21)
+
+-   Test up to WordPress 6.8
+
 ### 1.9 (2024.10.19)
 
 -   Test up to WordPress 6.6

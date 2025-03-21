@@ -2,9 +2,9 @@
 
 Contributors:       nielslange
 Tags:               Image compression
-Stable tag:         1.9
-Tested up to:       6.6
-Requires PHP:       5.6
+Stable tag:         2.0
+Tested up to:       6.8
+Requires PHP:       7.4
 Requires at least:  2.5
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,10 @@ Deactivate the WordPress default image compression which got introduced with [Wo
 By default, WordPress compress every uploaded image by 90%. In combination with other image optimisation tools, this can lead to pixelated images. This plugin deactivates the default image compression to avoid this issue.
 
 == Changelog ==
+
+= 2.0 (2025.03.21) =
+
+-   Test up to WordPress 6.8
 
 = 1.9 (2024.10.19) =
 
