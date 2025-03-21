@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@master
 
       - name: Install Composer dependencies
         uses: ramsey/composer-install@v2
@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@master
 
       - name: Install Composer dependencies
         uses: ramsey/composer-install@v1
