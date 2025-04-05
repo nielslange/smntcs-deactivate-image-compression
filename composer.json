@@ -3,10 +3,6 @@
 	"type": "plugin",
 	"description": "Deactivate the WordPress default image compression which got introduced with WordPress 2.5.",
 	"homepage": "https://github.com/nielslange/smntcs-deactivate-image-compression",
-	"support": {
-		"issues": "https://github.com/nielslange/smntcs-deactivate-image-compression/issues",
-		"source": "https://github.com/nielslange/smntcs-deactivate-image-compression"
-	},
 	"keywords": [
 		"WordPress",
 		"Plugin",
@@ -19,17 +15,14 @@
 			"email": "info@nielslange.de"
 		}
 	],
-	"require": {
-		"php": ">=7.0"
-	},
 	"require-dev": {
-		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-		"humanmade/psalm-plugin-wordpress": "^2.0",
-		"overtrue/phplint": "^3.0",
-		"phpcompatibility/phpcompatibility-wp": "^2.1",
-		"squizlabs/php_codesniffer": "^3.6",
-		"vimeo/psalm": "^4.7",
-		"wp-coding-standards/wpcs": "^2.3"
+		"dealerdirect/phpcodesniffer-composer-installer": "1.0.0",
+		"humanmade/psalm-plugin-wordpress": "3.1.2",
+		"overtrue/phplint": "9.5.6",
+		"phpcompatibility/phpcompatibility-wp": "2.1.6",
+		"squizlabs/php_codesniffer": "3.12.1",
+		"vimeo/psalm": "6.10.0",
+		"wp-coding-standards/wpcs": "3.1.0"
 	},
 	"scripts": {
 		"phpcbf": "phpcbf --standard=phpcs.dist.xml .",

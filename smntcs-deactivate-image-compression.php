@@ -22,9 +22,4 @@ defined( 'ABSPATH' ) || exit;
  *
  * @return int The image compression percentage.
  */
-add_filter(
-	'jpeg_quality',
-	function() {
-		return 100;
-	}
-);
+add_filter( 'jpeg_quality', fn() => 100 );
