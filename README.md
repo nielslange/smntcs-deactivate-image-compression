@@ -24,6 +24,13 @@ You can find the plugin on https://wordpress.org/plugins/smntcs-deactivate-image
 
 ## Changelog
 
+### 2.2 (2026.09.26)
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Save WebP, AVIF and all other image formats at full quality
+- Stop WordPress from downscaling and recompressing large uploads
+
 ### 2.1 (2026.08.14)
 
 -   Test up to WordPress 7.0
