@@ -14,3 +14,7 @@ package-lock.json
 # Folders
 node_modules/
 vendor/
+cypress/screenshots
+cypress/videos
+playwright-report
+test-results

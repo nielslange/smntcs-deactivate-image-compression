@@ -1,19 +1,27 @@
-=== SMNTCS Deactivate image compression ===
+=== SMNTCS Deactivate Image Compression ===
 
 Contributors:       nielslange
-Tags:               Image compression
-Stable tag:         2.1
-Tested up to:       7.0
-Requires PHP:       7.4
+Tags:               image compression, image quality, jpeg, webp, big image
 Requires at least:  2.5
+Tested up to:       7.1
+Requires PHP:       7.4
+Stable tag:         2.2
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
-Deactivate the WordPress default image compression.
+Keeps uploaded images at full quality by turning off WordPress's image compression and big-image downscaling.
 
 == Description ==
 
-Deactivate the WordPress default image compression which got introduced with [WordPress 2.5](https://developer.wordpress.org/reference/hooks/jpeg_quality/).
+WordPress recompresses every image you upload. JPEG and WebP files are saved at a quality of 82, and since WordPress 5.3 images larger than 2560 pixels are replaced by a compressed "-scaled" copy. If you already optimise your images before uploading them, or use an image optimisation service, this extra compression can make them look blurry or pixelated.
+
+SMNTCS Deactivate Image Compression turns all of that off:
+
+* JPEG images are saved at full quality
+* WebP and AVIF images, and every other format the image editor writes, are saved at full quality
+* Large uploads are kept at their original size instead of being downscaled
+
+There are no settings. Activate the plugin and every new upload keeps its full quality. Images you uploaded before activating the plugin are not changed.
 
 == Installation ==
 
@@ -24,7 +32,36 @@ Deactivate the WordPress default image compression which got introduced with [Wo
 
 By default, WordPress compress every uploaded image by 90%. In combination with other image optimisation tools, this can lead to pixelated images. This plugin deactivates the default image compression to avoid this issue.
 
+== Frequently Asked Questions ==
+
+= Can I keep the big-image downscaling? =
+
+Yes. Add this line to your theme's functions.php file or a small plugin:
+
+`remove_filter( 'big_image_size_threshold', '__return_false' );`
+
+= Does the plugin change images I already uploaded? =
+
+No. Only new uploads and newly generated image sizes are affected. Use a plugin such as Regenerate Thumbnails to rebuild existing image sizes.
+
+= Can I keep the big-image downscaling? =
+
+Yes. Add this line to your theme's functions.php file or a small plugin:
+
+`remove_filter( 'big_image_size_threshold', '__return_false' );`
+
+= Does the plugin change images I already uploaded? =
+
+No. Only new uploads and newly generated image sizes are affected. Use a plugin such as Regenerate Thumbnails to rebuild existing image sizes.
+
 == Changelog ==
+
+= 2.2 (2026.09.26) =
+
+- Test up to WordPress 7.1
+- Update development dependencies and GitHub Actions
+- Save WebP, AVIF and all other image formats at full quality
+- Stop WordPress from downscaling and recompressing large uploads
 
 = 2.1 (2026.08.14) =
 
