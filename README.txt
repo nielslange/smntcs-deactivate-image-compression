@@ -5,7 +5,7 @@ Tags:               image compression, image quality, jpeg, webp, big image
 Requires at least:  2.5
 Tested up to:       7.1
 Requires PHP:       7.4
-Stable tag:         2.2
+Stable tag:         2.3
 License:            GPL v2 or later
 License URI:        https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,10 +28,6 @@ There are no settings. Activate the plugin and every new upload keeps its full q
 1. Upload `smntcs-deactivate-image-compression` to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the `Plugins` menu in WordPress.
 
-== Purpose ==
-
-By default, WordPress compress every uploaded image by 90%. In combination with other image optimisation tools, this can lead to pixelated images. This plugin deactivates the default image compression to avoid this issue.
-
 == Frequently Asked Questions ==
 
 = Can I keep the big-image downscaling? =
@@ -44,17 +40,12 @@ Yes. Add this line to your theme's functions.php file or a small plugin:
 
 No. Only new uploads and newly generated image sizes are affected. Use a plugin such as Regenerate Thumbnails to rebuild existing image sizes.
 
-= Can I keep the big-image downscaling? =
-
-Yes. Add this line to your theme's functions.php file or a small plugin:
-
-`remove_filter( 'big_image_size_threshold', '__return_false' );`
-
-= Does the plugin change images I already uploaded? =
-
-No. Only new uploads and newly generated image sizes are affected. Use a plugin such as Regenerate Thumbnails to rebuild existing image sizes.
-
 == Changelog ==
+
+= 2.3 (2026.09.27) =
+
+- Remove duplicated FAQ entries from the readme
+- Remove the Purpose section, which repeated the description
 
 = 2.2 (2026.09.26) =
 
